@@ -5,7 +5,191 @@
     <title>React</title>
 </head>
 <body>
-<div id="root"></div>
+<div class="content">
+    <div class="header">
+        <table class="heading">
+            <tbody>
+            <tr>
+                <td class="logo">
+                    <img alt="Top stories"
+                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAwUExURccQCsMcEsYTDMgMCMIhFcQZEMUWDv///8kJBssEA9RQSssyKvrq6eeppNNfVuqioHKQggQAAAFaSURBVCjPZc+xSgQxEAbgn11stJDAXr9E2PowzWIXSKUoXrH7AAfmFRaOE4ttcm9w110hXGFjYWVhey8g+AJ2Nna2ziQht6t/EcjHPwOD7uHpzLnVhtNRzl9/Oiy3de3cJmHfX+yxgCJ0CZXKd/j2uBriKbZQqh41cYxnQhfnI57gFrlfSgvWHqc4QhnRrdcuYgaJOE/xCKKSkXWV0DdJ+9QEN2Wo1geUAXPSXg0xzPt4zEgqrmKEFnNfhZrS0R6lrGBlUOQAI5mFJS0REtAyVlJm/5C2yjJLaAnboJKOKxkraxs0NiqF0dqW0Ot8gA0jK5ergHeEk6gcRrIZBGE7QDIBwdXGtmMM2rRtRCEYo1IYZxGF+IuF10kzo2WM9DEwWqQE1IQD9VgYRlMMURPghR6tdUL6XuHTeDW6EEXEG7wbH5oqTMRrLMwhEXdYPv7Fyz26+68xvn10v1I28gJjZBVOAAAAAElFTkSuQmCC">
+                </td>
+                <td>
+                    <div class="geo">
+                        &nbsp;<span class="country"><span>Украина</span><select>
+                        <option label="Австралия"
+                                value="AU">Австралия
+                        </option>
+                        <option label="Аргентина"
+                                value="AR">Аргентина
+                        </option>
+                        <option label="Армения"
+                                value="AM">Армения
+                        </option>
+                        <option label="Беларусь"
+                                value="BY">Беларусь
+                        </option>
+                        <option label="Болгария"
+                                value="BG">Болгария
+                        </option>
+                        <option label="Бразилия"
+                                value="BR">Бразилия
+                        </option>
+                        <option label="Великобритания"
+                                value="GB">Великобритания
+                        </option>
+                        <option label="Германия"
+                                value="DE">Германия
+                        </option>
+                        <option label="Греция"
+                                value="GR">Греция
+                        </option>
+                        <option label="Грузия"
+                                value="GE">Грузия
+                        </option>
+                        <option label="Индия"
+                                value="IN">Индия
+                        </option>
+                        <option label="Италия"
+                                value="IT">Италия
+                        </option>
+                        <option label="Казахстан"
+                                value="KZ">Казахстан
+                        </option>
+                        <option label="Канада"
+                                value="CA">Канада
+                        </option>
+                        <option label="Мексика"
+                                value="MX">Мексика
+                        </option>
+                        <option label="Нидерланды"
+                                value="NL">Нидерланды
+                        </option>
+                        <option label="ОАЭ"
+                                value="AE">ОАЭ
+                        </option>
+                        <option label="Португалия"
+                                value="PT">Португалия
+                        </option>
+                        <option label="Россия"
+                                value="RU">Россия
+                        </option>
+                        <option label="Румыния"
+                                value="RO">Румыния
+                        </option>
+                        <option label="США"
+                                value="US">США
+                        </option>
+                        <option label="Сингапур"
+                                value="SG">Сингапур
+                        </option>
+                        <option label="Турция"
+                                value="TR">Турция
+                        </option>
+                        <option label="Узбекистан"
+                                value="UZ">Узбекистан
+                        </option>
+                        <option label="Украина"
+                                value="UA"
+                                selected="selected">Украина
+                        </option>
+                        <option label="Финляндия"
+                                value="FI">Финляндия
+                        </option>
+                        <option label="Франция"
+                                value="FR">Франция
+                        </option>
+                        <option label="Чехия"
+                                value="CZ">Чехия
+                        </option>
+                        <option label="Швейцария"
+                                value="CH">Швейцария
+                        </option>
+                        <option label="Эстония"
+                                value="EE">Эстония
+                        </option>
+                        <option label="Япония"
+                                value="JP">Япония
+                        </option>
+                    </select>
+                    </span>
+                    </div>
+                </td>
+                <td class="search">
+                    <form method="GET"
+                          action="https://top.st/ua">
+                        <button ontouchstart=""
+                                type="submit"><i class="icon-search"></i></button>
+                        <input name="q"
+                               type="text"
+                               value=""
+                               placeholder="Поиск…">
+                    </form>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <ul class="period">
+            <li><a href="https://top.st/ua/online">онлайн</a></li>
+            <li class="current"><a href="https://top.st/ua/hour">час</a></li>
+            <li><a href="https://top.st/ua/day">день</a></li>
+            <li><a href="https://top.st/ua/week">неделя</a></li>
+            <li><a href="https://top.st/ua/month">месяц</a></li>
+        </ul>
+
+        <div class="state"
+             onclick="App.ss()">
+            <div class="state-progress progress"
+                 style="height: 40%;">
+                <i class="state-icon-1 icon-controller-pause"></i>
+            </div>
+            <i class="state-icon-2 icon-controller-pause"></i>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="body">
+        <ul class="articles">
+            <li data-id="45199088"
+                data-position="1"
+                style="order: 0; transform: matrix(1, 0, 0, 1, 0, 0);">
+                <article onclick="App.p(event, 45199088)">
+                    <h2>
+                        <img alt="tsn.ua"
+                             src="./topNews_files/tsn.ua">
+                        <a href="https://tsn.ua/ukrayina/godina-kurinnya-kalyanu-shkodit-organizmu-yak-100-vikurenih-sigaret-suprun-1355793.html"
+                           onclick="App.c(45199088);"
+                           rel="noopener"
+          =                 target="_blank">Година куріння кальяну шкодить організму, як 100 викурених сигарет –
+                                           Супрун</a></h2>
+                    <div class="info">
+                        <b class="p"><i class="i-u"></i><i class="i-d"></i><em>1</em></b>
+                        <time data-timestamp="1559532540000"
+                              datetime="2019-06-03T03:29:00.000Z">Сегодня в 06:29
+                        </time>
+                        <a href="https://top.st/ua/tsn.ua">tsn.ua</a>
+
+                        <a class="el"
+                           href="https://top.st/ua/news/45199088"><i class="icon-link"></i></a>
+                        <b onclick="App.sf(45199088, &#39;Godina-kurinnya-kalyanu-shkodit-organizmu-yak-100-vikurenih-sigaret-Suprun&#39;);"
+                           class="s s-f"><i class="i-f"></i></b>
+                        <b onclick="App.st(45199088, &#39;Godina-kurinnya-kalyanu-shkodit-organizmu-yak-100-vikurenih-sigaret-Suprun&#39;);"
+                           class="s s-t"><i class="i-t"></i></b>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <div class="footer">
+            <div class="footer-content">
+                <span class="mail"><i class="icon-mail"></i><a href="mailto:mail@top.st"
+                                                               rel="noopener"
+                                                               target="_blank">mail@top.st</a></span>
+                <span class="copyright">© 2015-2017 Top.st</span>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="./app.bundle.js"></script>
 </body>
 </html>
